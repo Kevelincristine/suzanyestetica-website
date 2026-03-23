@@ -1,0 +1,51 @@
+/* Configurações Globais e Variáveis */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --font-main: 'Arial', sans-serif;
+    --spacing-unit: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    line-height: 1.6;
+}
+
+/* Layout Estrutural Básico */
+.main-header {
+    padding: var(--spacing-unit);
+    background: #f4f4f4;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+section {
+    padding: 60px var(--spacing-unit);
+    border-bottom: 1px solid #eee;
+}
+
+.main-footer {
+    padding: var(--spacing-unit);
+    text-align: center;
+    background: #f4f4f4;
+}

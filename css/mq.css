@@ -1,0 +1,14 @@
+/* ==========================================================================
+   MEDIA QUERIES (TABLETS E NOTEBOOKS)
+   ========================================================================== */
+
+/* TABLETS (Telas entre 601px e 1024px) */
+@media screen and (min-width: 601px) {
+   
+}
+
+/* NOTEBOOKS E DESKTOPS (Telas acima de 1025px) */
+@media screen and (min-width: 1025px) {
+   
+    
+}
