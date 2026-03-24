@@ -3,57 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Base</title>
+    <title>Suzanyestética</title>
+    
+    <link rel="shortcut icon" href="Assets/icon-roxo03.jpg" type="image/x-icon">
+
     <link rel="stylesheet" href="css/mq.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header class="main-header">
         <nav class="nav-container">
-            <div class="logo">Logo</div>
+            <div class="logo"><img src="Assets/icon-roxo03.jpg" alt="icone-suzany"></div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main>  
+         <!--home  -->
         <section id="home" class="section-home">
-            <h1>Título Principal</h1>
-            <p>Subtítulo ou descrição breve.</p>
+            <h1>Suzanyestética</h1>
+            <p>Tecnologia e cuidado para sua pele.</p>
+            <button id="home-button">
+                WhatsApp
+            </button>
         </section>
+        <!-- home fim -->
 
+        <!-- serviços -->
         <section id="services" class="section-services">
-            <h2>Nossos Serviços</h2>
-            <div class="services-grid">
-                <div class="service-item">Item</div>
-                <div class="service-item">Item</div>
-            </div>
-        </section>
+            <h2>Serviços</h2>
+
+    <div class="services-grid">
+
+        <div class="service-card">
+            <img src="assets/limpeza.jpg" alt="Limpeza de pele premium">
+            <h3>Limpeza de pele premium</h3>
+            <p>Tratamento profundo para limpeza e renovação da pele.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="assets/microagulhamento.jpg" alt="Microagulhamento">
+            <h3>Microagulhamento</h3>
+            <p>Estimula a produção de colágeno e melhora a textura da pele.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="assets/peeling.jpg" alt="Peelings">
+            <h3>Peelings</h3>
+            <p>Procedimento para renovação celular e melhora da aparência da pele.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="assets/skincare.jpg" alt="Consultoria de skincare">
+            <h3>Consultoria de skincare</h3>
+            <p>Orientação personalizada para cuidados com a pele.</p>
+        </div>
+
+    </div>
+</section>
+        <!-- serviços fim -->
 
         <section id="about" class="section-about">
-            <h2>Sobre Nós</h2>
+            <h2>Sobre mim</h2>
             <div class="about-content">
-                <p>Texto descritivo sobre a empresa ou projeto.</p>
+                <p>Atuo na área da estética há 7 anos, com especialidade em limpeza de pele premium.</p>
+                <img src="Assets/suzane01.jpeg" alt="suzany-foto">
             </div>
         </section>
-
-        <section id="contact" class="section-contact">
-            <h2>Contato</h2>
-            <form class="contact-form">
-                <input type="text" placeholder="Nome">
-                <button type="submit">Enviar</button>
-            </form>
+        <section id="gallery">
+            <h2>Resultados</h2>
+            <!-- imagens aqui -->
         </section>
     </main>
 
-    <footer class="main-footer">
-        <p>Rodapé &copy; 2026</p>
-    </footer>
+   <footer class="footer">
+    <div class="footer-content">
+
+        <h3>Suzany Estética</h3>
+        <p>Cuidando da sua pele com profissionalismo e dedicação.</p>
+
+        <div class="footer-contact">
+            <p>WhatsApp: (43) 98432-7328</p>
+            <p>Instagram: @suzanyestetica</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Suzany Estética. Todos os direitos reservados.</p>
+    </div>
+</footer>
 
     <script src="js/script.js"></script>
 </body>
