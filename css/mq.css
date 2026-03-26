@@ -1,14 +1,114 @@
-/* ==========================================================================
-   MEDIA QUERIES (TABLETS E NOTEBOOKS)
-   ========================================================================== */
+/* ====================== MEDIA QUERIES - CELULARES E TABLETS ====================== */
 
-/* TABLETS (Telas entre 601px e 1024px) */
-@media screen and (min-width: 601px) {
-   
+@media (max-width: 992px) {
+    /* Tablets e Celulares maiores - Ativa Menu Hambúrguer */
+    .nav-links {
+        display: none;
+    }
+      
+     
+    .hamburger {
+        display: flex;
+    }
+
+    .hero-content h1 {
+        font-size: 2.9rem;
+    }
+
+    .about-grid,
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
 }
 
-/* NOTEBOOKS E DESKTOPS (Telas acima de 1025px) */
-@media screen and (min-width: 1025px) {
+/* ====================== CELULARES E TABLETS PEQUENOS ====================== */
+@media (max-width: 768px) {
+    .navbar .container {
+        height: 70px;
+        padding: 0 15px;
+    }
+
+    .logo {
+        font-size: 1.65rem;
+    }
+
+    .hero {
+        margin-top: 70px;
+        padding: 60px 0 40px;
+        text-align: center;
+    }
+
+    .hero-content {
+        padding: 0 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.55rem;
+    }
+
+    .hero-content p {
+        font-size: 1.15rem;
+    }
+
+    .section-title {
+        font-size: 2.3rem;
+    }
+
+    .services,
+    .about,
+    .contact {
+        padding: 70px 0;
+    }
+
+    .service-card img {
+        height: 195px;
+    }
+
+    .btn-agendar {
+        padding: 9px 18px;
+        font-size: 0.95rem;
+    }
+}
+
+/* ====================== CELULARES MUITO PEQUENOS ====================== */
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 2.25rem;
+    }
    
-    
+
+
+    .section-title {
+        font-size: 2.05rem;
+    }
+
+    .container {
+        padding: 0 12px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .service-card img {
+        height: 180px;
+    }
+
+    .btn-primary,
+    .btn-agendar {
+        padding: 13px 26px;
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .mobile-menu a {
+        font-size: 1.25rem;
+    }
 }

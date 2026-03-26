@@ -1,93 +1,100 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suzanyestética</title>
-    
-    <link rel="shortcut icon" href="Assets/icon-roxo03.jpg" type="image/x-icon">
-
+    <title>Suzane Estética</title>
+    <link rel="stylesheet" 
+    href="css/style.css">
     <link rel="stylesheet" href="css/mq.css">
-    <link rel="stylesheet" href="css/style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Assets/icon-branco03.jpg" type="image/x-icon">
 </head>
 <body>
-
-    <header class="main-header">
-        <nav class="nav-container">
-            <div class="logo"><img src="Assets/icon-roxo03.jpg" alt="icone-suzany"></div>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+               <img src="Assets/icon-roxo03.jpg" alt="icone marca">
+            </div>
             <ul class="nav-links">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="serviços.html">Serviços</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
-        </nav>
-    </header>
+            <a href="#contato" class="btn-agendar">Agendar Horário</a>
+        </div>
+    </nav>
 
-    <main>  
-         <!--home  -->
-        <section id="home" class="section-home">
-            <h1>Suzanyestética</h1>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Suzany<span>Estética</span></h1>
             <p>Tecnologia e cuidado para sua pele.</p>
-            <button id="home-button">
-                WhatsApp
-            </button>
-        </section>
-        <!-- home fim -->
-
-        <!-- serviços -->
-        <section id="services" class="section-services">
-            <h2>Serviços</h2>
-
-    <div class="services-grid">
-
-        <div class="service-card">
-            <img src="assets/limpeza.jpg" alt="Limpeza de pele premium">
-            <h3>Limpeza de pele premium</h3>
-            <p>Tratamento profundo para limpeza e renovação da pele.</p>
+            <a href="#contato" class="btn-primary">Agende sua consulta</a>
         </div>
-
-        <div class="service-card">
-            <img src="assets/microagulhamento.jpg" alt="Microagulhamento">
-            <h3>Microagulhamento</h3>
-            <p>Estimula a produção de colágeno e melhora a textura da pele.</p>
+        <div class="hero-image">
+    
+            <img src="Assets/produto01.jpg" alt="Suzane Estética - Ambiente luxuoso">
         </div>
+    </section>
 
-        <div class="service-card">
-            <img src="assets/peeling.jpg" alt="Peelings">
-            <h3>Peelings</h3>
-            <p>Procedimento para renovação celular e melhora da aparência da pele.</p>
-        </div>
-
-        <div class="service-card">
-            <img src="assets/skincare.jpg" alt="Consultoria de skincare">
-            <h3>Consultoria de skincare</h3>
-            <p>Orientação personalizada para cuidados com a pele.</p>
-        </div>
-
-    </div>
-</section>
-        <!-- serviços fim -->
-
-        <section id="about" class="section-about">
-            <h2>Sobre mim</h2>
-            <div class="about-content">
-                <p>Atuo na área da estética há 7 anos, com especialidade em limpeza de pele premium.</p>
-                <img src="Assets/suzane01.jpeg" alt="suzany-foto">
+    <!-- Serviços -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <h2 class="section-title">Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="Assets/cliente04.jpeg" alt="Limpeza de Pele">
+                    <h3>Limpeza de Pele premium</h3>
+                    <p>Renovação completa com extratos premium e tecnologia avançada.</p>
+                </div>
+                <div class="service-card">
+                    <img src="Assets/cliente03.jpeg" alt="Microagulhamento">
+                    <h3>Microagulhamento</h3>
+                    <p>Estimula a produção de colágeno e melhora a textura da pele.</p>
+                </div>
+                <div class="service-card">
+                    <img src="Assets/cliente05.jpeg" alt="Peelings">
+                    <h3>Peelings</h3>
+                    <p>rocedimento para renovação celular e melhora da aparência da pele.</p>
+                </div>
+                <div class="service-card">
+                    <img src="Assets/creme02.jpeg" alt="Consultoria de skincare">
+                    <h3>Consultoria de skincare</h3>
+                    <p>Orientação personalizada para cuidados com a pele.</p>
+                </div>
             </div>
-        </section>
-        <section id="gallery">
-            <h2>Resultados</h2>
-            <!-- imagens aqui -->
-        </section>
-    </main>
+        </div>
+    </section>
 
-   <footer class="footer">
-    <div class="footer-content">
+    <!-- Sobre -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Suzany Estética</h2>
+                    <p>Atuo na área da estética há 7 anos, com especialidade em limpeza de pele premium.</p>
+                    <p>Minha missão é realçar sua beleza natural, promovendo bem-estar e autoestima em um ambiente sofisticado e relaxante.</p>
+                    <a href="#contato" class="btn-secondary">Fale comigo</a>
+                </div>
+                <div class="about-image">
+                    <img src="Assets/suzane01.jpeg" alt="Ambiente Suzane Estética">
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <h3>Suzany Estética</h3>
+    <!-- Contato -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                   
+                      <h3>Suzany Estética</h3>
         <p>Cuidando da sua pele com profissionalismo e dedicação.</p>
 
         <div class="footer-contact">
@@ -96,12 +103,20 @@
         </div>
 
     </div>
+                </div>
+                <form class="contact-form">
+            </div>
+        </div>
+    </section>
 
-    <div class="footer-bottom">
-        <p>&copy; 2026 Suzany Estética. Todos os direitos reservados.</p>
-    </div>
-</footer>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Suzane Estética. </p>
+            <p>Desenvolvido com elegância e carinho</p>
+        </div>
+    </footer>
 
-    <script src="js/script.js"></script>
+    <script src="Js/script.js"></script>
 </body>
 </html>
