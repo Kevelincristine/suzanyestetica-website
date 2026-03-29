@@ -122,7 +122,7 @@ body {
 /* Ajustes para o botão Agendar no mobile */
 @media (max-width: 992px) {
     .btn-agendar {
-        display: none; /* Esconde o botão no desktop quando abre menu mobile */
+        display: none; 
 
     }
     

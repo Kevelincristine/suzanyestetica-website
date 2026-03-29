@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Cria o conteúdo do menu mobile
     mobileMenu.innerHTML = `
         <ul>
-            <li><a href="home.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="serviços.html">Serviços</a></li>
             <li><a href="sobre.html">Sobre</a></li>
             <li><a href="contato.html">Contato</a></li>
