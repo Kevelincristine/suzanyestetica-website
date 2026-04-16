@@ -72,5 +72,3 @@ Este projeto permitiu que a profissional:
 
 **Kevelin Cristine Santos** *Desenvolvedora Front-end focada em resolver problemas de negócios através da tecnologia.*
 
-
-# 3. Abra o index.html no seu navegador ou use a extensão Live Server do VS Code.
