@@ -2,8 +2,8 @@
 
 > **Transformando a presença digital de um negócio real em uma máquina de agendamentos.**
 
-[![Acesse o Projeto](https://img.shields.io/badge/Acesse%20o%20Site%20Ao%20Vivo-Vercel-black?style=for-the-badge&logo=vercel)](https://seu-link-da-vercel.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/seu-perfil)
+[![Acesse o Projeto](https://img.shields.io/badge/Acesse%20o%20Site%20Ao%20Vivo-Vercel-black?style=for-the-badge&logo=vercel)](https://suzanyestetica-website.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/kevelin-cristine-santos-a02977351/)
 
 ---
 
