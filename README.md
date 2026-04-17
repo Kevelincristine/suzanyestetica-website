@@ -55,7 +55,8 @@ Diferente de projetos acadêmicos, este site foi pensado para o mercado real, at
 
 <div align="center">
   <img src="Assets/site-instagram.jpeg" alt="perfil da cliente" width="80%">
-  <br/>
+
+  
   <img src="Assets/imagem-site.png" alt="Screenshot do Projeto" width="80%">
 </div>
 
